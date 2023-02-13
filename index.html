@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="css/main.css" />
+		<title>Jay Sexton</title>
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="relative container mx-auto p-6">
+			<!-- Flex Container -->
+			<div class="flex items-center justify-between">
+				<!-- Logo -->
+				<div class="pt-2">
+					<img
+						style="width: 8rem"
+						src="wave.svg"
+						alt="wave" />
+				</div>
+				<!-- Menu Items -->
+				<div class="hidden space-x-6 md:flex">
+					<a
+						href="#home"
+						class="hover:text-gray-400"
+						>Home</a
+					>
+					<a
+						href="#projects"
+						class="hover:text-gray-400"
+						>Projects</a
+					>
+					<a
+						href="#contact"
+						class="hover:text-gray-400"
+						>Contact Us</a
+					>
+				</div>
+				<!-- Button -->
+				<a
+					href="#"
+					class="hidden p-3 pt-2 text-white bg-red-500 rounded-full baseline hover:bg-gray-500 md:block"
+					>Get Started</a
+				>
+				<!-- Hamburger Icon -->
+				<button
+					id="menu-btn"
+					class="block hamburger md:hidden focus:outline-none">
+					<span class="hamburger-top"></span>
+					<span class="hamburger-middle"></span>
+					<span class="hamburger-bottom"></span>
+				</button>
+			</div>
+			<!-- Mobile Menu -->
+			<div class="md:hidden">
+				<div
+					id="menu"
+					class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+					<a href="#">Home</a>
+					<a href="#">Projects</a>
+					<a href="#">Contact Us</a>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Hero Section -->
+		<section id="hero">
+			<!-- Flex Container -->
+			<div
+				class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+				<!--Left Item-->
+				<div class="flex flex-col mb-32 space-y-10 md:w-1/2">
+					<h1
+						class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+						<span class="text-red-500">Providing</span> all your Web Development
+						Services
+					</h1>
+					<p class="max-w-sm text-center text-gray-500 md:text-left">
+						Client-focused website solutions for your business needs. We offer
+						the latest services to create responsive web designs to custom
+						e-commerce technologies.
+					</p>
+				</div>
+				<!-- Image -->
+				<div class="md:w-1/2">
+					<img
+						style="width: 500px"
+						src="webpack.svg"
+						alt="" />
+				</div>
+			</div>
+		</section>
+		<!-- Projects -->
+		<section id="projects">
+			<!-- Flex Container -->
+			<div
+				class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+				<!--Why Choose Us-->
+				<div class="flex flex-col space-y-12 md:w-1/2">
+					<h2 class="max-w-md text-4xl font bold text-center md:text-left">
+						Why choose us for your project?
+					</h2>
+					<p class="max-w-sm text-center text-gray-500 md:text-left">
+						Examples of our completed projects. Contact us to discuss your
+						personalized business solutions or project creation.
+					</p>
+				</div>
+
+				<!-- Numbered List -->
+				<div class="flex flex-col space-y-8 md:w-1/2">
+					<!-- Project 1 -->
+					<div
+						class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+						<!-- Heading -->
+						<div class="rounded-l-full bg-red-100 md:bg-transparent">
+							<div class="flex items-center space-x-2">
+								<div
+									class="px-4 py-2 text-white rounded-full md:py-1 bg-red-500">
+									01
+								</div>
+								<h3 class="text-base font-bold md:mb-4 md:hidden">Project 1</h3>
+							</div>
+						</div>
+
+						<div>
+							<h3 class="hidden mb-4 text-lg font-bold md:block">Project 1</h3>
+							<p class="text-gray-500">Description of the project</p>
+						</div>
+					</div>
+
+					<!-- Project 2 -->
+					<div
+						class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+						<!-- Heading -->
+						<div class="rounded-l-full bg-red-100 md:bg-transparent">
+							<div class="flex items-center space-x-2">
+								<div
+									class="px-4 py-2 text-white rounded-full md:py-1 bg-red-500">
+									02
+								</div>
+								<h3 class="text-base font-bold md:mb-4 md:hidden">Project 2</h3>
+							</div>
+						</div>
+
+						<div>
+							<h3 class="hidden mb-4 text-lg font-bold md:block">Project 2</h3>
+							<p class="text-gray-500">Description of the project</p>
+						</div>
+					</div>
+
+					<!-- Project 3 -->
+					<div
+						class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+						<!-- Heading -->
+						<div class="rounded-l-full bg-red-100 md:bg-transparent">
+							<div class="flex items-center space-x-2">
+								<div
+									class="px-4 py-2 text-white rounded-full md:py-1 bg-red-500">
+									03
+								</div>
+								<h3 class="text-base font-bold md:mb-4 md:hidden">Project 3</h3>
+							</div>
+						</div>
+
+						<div>
+							<h3 class="hidden mb-4 text-lg font-bold md:block">Project 3</h3>
+							<p class="text-gray-500">Description of the project</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- CTA -->
+		<section
+			class="bg-red-500"
+			id="cta">
+			<!-- Flex Container -->
+			<div
+				class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
+				<!-- Heading -->
+				<h2
+					class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left">
+					Put our team to work for you today
+				</h2>
+				<!-- Button -->
+				<div>
+					<a
+						href="#"
+						class="p-3 pt-2 text-gray-500 bg-white border-color: border-transparent border-4 rounded-full shadow-2xl baseline hover:border-gray-500 md:block"
+						>Get Started</a
+					>
+				</div>
+			</div>
+		</section>
+		<!-- Footer -->
+		<footer class="bg-gray-300">
+			<!-- Flex Container -->
+			<div
+				class="cotainer flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+				<!-- Social Links and Logo -->
+				<div
+					class="flex flex-col items-center justify-between space-y-8 md:flex-col md:space-y-0 md:items-start">
+					<!-- Logo -->
+					<div>
+						<img
+							style="width: 3rem"
+							src="wave.svg"
+							alt="wave" />
+					</div>
+					<!-- Social Links -->
+					<div class="flex justify-center space-x-4">
+						<!-- Link 1-->
+						<a href="https://twitter.com/jaysxtn">
+							<img
+								style="width: 3rem"
+								src="twitter.svg"
+								alt="twitter" />
+						</a>
+					</div>
+					<div class="flex justify-center space-x-4">
+						<!-- Link 2-->
+						<a href="https://www.linkedin.com/in/jamessexton/">
+							<img
+								style="width: 3rem"
+								src="linkedin.svg"
+								alt="linkedin" />
+						</a>
+					</div>
+					<div class="flex justify-center space-x-4">
+						<!-- Link 3-->
+						<a href="https://github.com/jaysexton">
+							<img
+								style="width: 3rem"
+								src="github.svg"
+								alt="github" />
+						</a>
+					</div>
+				</div>
+				<!-- List Container -->
+				<div class="flex justify-around space-x-32">
+					<div class="flex flex-col space-y-3 text-black">
+						<a
+							href="#"
+							class="hover:text-red-500"
+							>Home</a
+						>
+						<a
+							href="#"
+							class="hover:text-red-500"
+							>Projects</a
+						>
+						<a
+							href="#"
+							class="hover:text-red-500"
+							>About</a
+						>
+					</div>
+				</div>
+				<!-- Input -->
+				<div class="flex flex-col justify-between">
+					<form>
+						<div class="flex space-x-3">
+							<input
+								type="email"
+								class="flex-1 px-4 rounded-full border-4 focus:outline-none"
+								placeholder="Enter your email address" />
+							<button
+								class="px-6 py-2 text-gray-100 rounded-full bg-red-500 hover:bg-red-200 focus:none">
+								Submit
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</footer>
+    <script src="js/script.js"></script>
+	</body>
+</html>
